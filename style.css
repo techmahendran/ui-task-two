@@ -1,0 +1,324 @@
+body {
+  margin: 0;
+}
+.logo ul a {
+  text-decoration: none;
+  display: flex;
+  padding: 0.5rem;
+  color: rgba(255, 255, 255, 0.884);
+  font-size: 93%;
+}
+ul {
+  display: flex;
+  margin-right: 10rem;
+}
+ul li {
+  list-style: none;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 11rem;
+  font-size: 120%;
+  color: rgba(236, 219, 219, 0.884);
+}
+
+header {
+  background-image: url(./main.jpg);
+  background-position-y: 84%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 47rem;
+  position: relative;
+  z-index: -1;
+}
+header::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  background-color: #07070787;
+}
+
+h1 {
+  width: 62%;
+  margin-top: 8rem;
+  margin-left: 18rem;
+  font-size: 3rem;
+  text-align-last: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+.line {
+  width: 2rem;
+  padding-left: 42rem;
+  margin-top: -1rem;
+}
+.new {
+  border: 1px solid rgb(255, 72, 0);
+}
+.para1 {
+  width: 38%;
+  padding-left: 7rem;
+  text-indent: 1rem;
+  color: rgba(255, 255, 255, 0.589);
+  margin-top: 1rem;
+  margin-left: 22rem;
+}
+.but1 {
+  color: #fff;
+  background-color: rgb(255, 72, 0);
+  border-radius: 20px;
+  display: inline-block;
+  padding: 0.9rem 1rem;
+  margin-left: 38rem;
+  margin-top: 1.5rem;
+  text-transform: uppercase;
+  font-size: 70%;
+}
+
+aside {
+  background-color: rgb(255, 60, 0);
+  margin-top: -7rem;
+  height: 25rem;
+  text-align: center;
+  padding-top: 4rem;
+}
+.start h4 {
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.line2 {
+  width: 4%;
+  margin-left: 41rem;
+}
+
+.new2 {
+  border: 1px solid wheat;
+}
+.para2 {
+  width: 53%;
+  text-align: center;
+  font-size: 120%;
+  margin-left: 20rem;
+  text-align-last: center;
+  color: rgba(255, 255, 255, 0.384);
+}
+
+.but2 {
+  color: #000;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 25px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-weight: bold;
+}
+
+.your {
+  text-align: center;
+  font-size: 2.5rem;
+  padding-top: 5rem;
+}
+
+.line3 {
+  width: 4%;
+  align-items: center;
+  margin-left: 41rem;
+}
+.img1 {
+  margin-left: 12rem;
+}
+.them {
+  margin-left: 2rem;
+}
+.graphics {
+  margin-left: 2rem;
+}
+.img1 h4 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.damimend-p {
+  width: 61%;
+  text-indent: 2rem;
+}
+.img2 {
+  margin-left: -10rem;
+}
+.system {
+  margin-left: 5.5rem;
+}
+.date {
+  margin: 0;
+  padding-left: 4rem;
+  font-size: 1.4rem;
+}
+.system-p {
+  width: 65%;
+  text-indent: 2rem;
+  text-align-last: center;
+}
+.img3 {
+  margin-left: -5rem;
+}
+.roll {
+  margin-left: 3rem;
+}
+.ready {
+  margin: 0;
+  font-size: 1.4rem;
+}
+.roll-p {
+  width: 57%;
+  text-align-last: center;
+}
+.img4 {
+  margin-left: -5rem;
+}
+.hart {
+  margin-left: 3rem;
+}
+.love {
+  font-size: 1.4rem;
+  margin-left: 3rem;
+  margin: 0;
+}
+.hart-p {
+  width: 67%;
+  text-align-last: center;
+}
+
+main {
+  background-color: rgba(238, 221, 188, 0.24);
+  display: flex;
+  padding-top: 2rem;
+  height: 24rem;
+  justify-content: space-between;
+}
+
+.free {
+  color: #fff;
+  font-size: 2rem;
+  margin-left: 27rem;
+  padding-top: 6rem;
+}
+
+.but3 {
+  text-transform: uppercase;
+  background-color: #fff;
+  display: inline-block;
+  padding: 1rem 1rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  border-radius: 24px;
+  margin-left: 36rem;
+}
+
+.images {
+  margin-top: -6rem;
+}
+.table {
+  margin-right: -4px;
+  height: 15rem;
+  width: 27.2rem;
+  margin-bottom: -4px;
+}
+
+.book {
+  height: 15rem;
+  width: 28.2rem;
+  margin-right: -4px;
+  margin-bottom: -4px;
+}
+
+.camara {
+  height: 15rem;
+  width: 28.9rem;
+  margin-bottom: -4px;
+}
+
+.kal {
+  height: 15rem;
+  margin-right: -4px;
+  width: 27.3rem;
+}
+
+.store {
+  width: 28.1rem;
+  height: 15rem;
+}
+
+.tools {
+  height: 15rem;
+  margin-left: -4px;
+  margin-top: -1rem;
+  width: 28.9rem;
+}
+
+.content {
+  height: 20rem;
+  margin-top: 0;
+  background-color: black;
+  opacity: 0.8;
+  margin-block-start: -2.3rem;
+}
+
+footer {
+  margin-top: 8rem;
+  opacity: 0.6;
+}
+
+.touch {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+.line4 {
+  width: 4%;
+  margin-left: 41rem;
+}
+.end-p {
+  width: 49%;
+  margin: auto;
+  font-size: 112%;
+  text-align-last: center;
+}
+
+.phone {
+  margin-left: 30rem;
+  margin-top: 4rem;
+}
+.num {
+  font-weight: bold;
+  margin-left: -2rem;
+  padding-top: 1rem;
+}
+.mail {
+  margin-left: 54rem;
+  margin-top: -5rem;
+}
+.site {
+  color: red;
+  font-size: 113%;
+  margin-left: -5rem;
+  margin-top: 0.4rem;
+}
+.right {
+  text-align: center;
+  height: 7rem;
+  background-color: rgba(248, 247, 244, 0.788);
+  margin-top: 10rem;
+  opacity: 0.6;
+}
+.copy {
+  padding-top: 3rem;
+}
